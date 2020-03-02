@@ -60,7 +60,7 @@ QToolTip {
 /* ==================== Dialog ==================== */
 QLabel {
     background: transparent;
-    color: #CFD8DC;             /* Not sure about this one */
+                /*  color: #CFD8DC;  Not sure about this one */
 }
 
 QDialog, QListView {
@@ -403,7 +403,7 @@ QToolBar {
 
 QToolBar:handle {
     background: transparent;
-    border-left: 2px dotted #80CBC4;    /* Fix the 4 handle dots so it doesn't look crappy */
+    border-left: 2px dotted #454545;    /* Fix the 4 handle dots so it doesn't look crappy */
     color: transparent;
 }
 
